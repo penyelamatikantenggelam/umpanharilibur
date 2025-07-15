@@ -1,41 +1,75 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f2f2f2;
-  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #eee;
 }
+
 header {
-  background: #0099cc;
-  color: white;
-  padding: 80px 20px;
-  text-align: center;
+  background-color: #1b1b1b;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #0f4c75;
 }
-nav {
-  background: #006666;
-  color: white;
-  padding: 10px;
-  text-align: center;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
+
+header .logo {
+  font-size: 1.5rem;
   font-weight: bold;
+  color: #00bcd4;
+  margin-bottom: 0.5rem;
 }
-.container {
-  padding: 20px;
+
+nav a {
+  margin: 0 1rem;
+  color: #eee;
+  text-decoration: none;
 }
-article {
-  background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+nav a:hover {
+  color: #00bcd4;
+  text-decoration: underline;
 }
-footer {
-  background: #006666;
-  color: white;
+
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero {
   text-align: center;
-  padding: 20px;
-  margin-top: 40px;
+  padding: 1rem;
+  background: linear-gradient(135deg, #0f4c75, #1b262c);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.artikel-terbaru ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.artikel-terbaru li {
+  margin: 0.5rem 0;
+}
+
+.artikel-terbaru a {
+  color: #4dd0e1;
+  text-decoration: none;
+}
+
+.artikel-terbaru a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1b1b1b;
+  border-top: 1px solid #333;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #888;
 }
